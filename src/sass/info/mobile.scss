@@ -1,0 +1,345 @@
+& {
+
+  header,
+  main,
+  footer {
+    overflow: hidden;
+  }
+
+
+  .xs-1 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .xs-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .xs-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .xs-4 {
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .xs-5 {
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .xs-6 {
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .xs-7 {
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .xs-8 {
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .xs-9 {
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .xs-10 {
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .xs-11 {
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .xs-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  #nav-icon {
+    display: block;
+    //    margin-top: 5px;
+  }
+
+  .xs-none {
+    display: none !important;
+  }
+
+  .xs-block {
+    display: block;
+  }
+
+  #menu {
+    margin-top: 40px;
+    text-align: center;
+    display: none;
+
+    li {
+      margin: 0 0 30px;
+      display: block;
+    }
+  }
+
+  .text-right {
+    text-align: center;
+  }
+
+  .nav {
+    background: #fff;
+      .logo {
+    margin-top: 7px;
+
+    img {
+      max-width: 105px;
+    }
+  }
+  }
+
+  .nav-row {
+    display: block;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  img,
+  .partners-item .img img {
+    max-width: 100%;
+  }
+
+
+
+  .nav {
+    padding: 10px 0;
+
+    .phone {
+      font-family: Circe;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 135%;
+      color: #1F1F1F;
+      position: absolute;
+      top: 22px;
+      left: 50%;
+      transform: translateX(-34%);
+      &.success-phone {
+        text-align: right;
+        left: inherit;
+        transform: none;
+        right: 15px;
+      }
+    }
+  }
+
+  .menu li a {
+    padding: 0;
+  }
+
+  .head-item h1,
+  .head-item strong {
+    margin-bottom: 20px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .head-item h1 {
+    font-size: 35px;
+  }
+
+  .head-img img {
+    width: 100%;
+  }
+
+  .info {
+    .slider_mob {
+      .slick-slide img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .slick-list {
+        padding-top: 95px;
+
+      }
+    }
+  }
+
+  .info-item {
+    //    margin-bottom: 90px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .head {
+    padding-bottom: 40px;
+  }
+
+  .head-item strong {
+    font-size: 12px;
+  }
+
+  .h2-title {
+    font-size: 35px;
+    margin-bottom: 20px !important;
+    text-align: center;
+  }
+
+  .about,
+  .guide,
+  .about_us, .advantages, .partners, .cases {
+    padding: 40px 0;
+  }
+
+  .info {
+    padding-bottom: 40px;
+  }
+
+  .about-item p {
+    font-size: 21px;
+    margin-bottom: 23px;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .guide-item .img img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider_mob {
+    padding-bottom: 50px;
+  }
+
+  .order-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about_us-img img {
+    float: none;
+    width: 100%;
+  }
+
+  .about_us-item {
+    margin-bottom: 0;
+    text-align: center;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+
+  .about_us-img {
+    margin-bottom: 50px;
+  }
+
+  .photo_bl {
+    display: none;
+  }
+  .advantages-item {
+    margin-top: 50px;
+  }
+  .advantages-item {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15px;
+    }
+  }
+  .advantages-item:before {
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+        width: 215px;
+  }
+  .slick-dots {
+    text-align: center;
+    width: 100%;
+  }
+  .partners-info img {
+    margin-right: 0;
+  }
+  .cases-slider .item {
+    margin: 0;
+//    min-height: inherit;
+  }
+  .cases {
+    .slick-dots {
+      max-width: 196px;
+    }
+  }
+  .nav.fixed .menu li a {
+    padding: 0;
+  }
+   .nav.fixed  .menu li a.btn {
+    color: #FF700C;
+    background: #FFF2E9;
+    border-radius: 100px;
+    padding: 12px 30px;
+}
+  .form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .about_us-item .img {
+    margin-bottom: 15px;
+  }
+  .container {
+    max-width: 480px;
+  }
+  .faq-item {
+    padding: 26px 60px 30px 30px;
+}
+  .h2-title.wfnormal  {
+    margin-top: 80px;
+  }
+  .faq {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .footer {
+    text-align: center;
+    .logo {
+      display: block;
+      margin-bottom: 30px;
+    }
+    .menu {
+      text-align: center;
+      li {
+        margin-top: 30px;
+      }
+    }
+  }
+  .about_us {
+    padding-top: 80px;
+  }
+}
