@@ -26,7 +26,7 @@ $(document).ready(function () {
     nextArrow: '<div class="slick_btn next"><svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.798753 12.7071C0.408228 12.3166 0.408228 11.6834 0.798753 11.2929L5.59165 6.5L0.798752 1.70711C0.408227 1.31658 0.408227 0.683418 0.798752 0.292894C1.18928 -0.0976309 1.82244 -0.0976309 2.21296 0.292894L7.71297 5.79289C8.10349 6.18342 8.10349 6.81658 7.71297 7.20711L2.21297 12.7071C1.82244 13.0976 1.18928 13.0976 0.798753 12.7071Z" fill="white"/></svg></div>',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 1,
 

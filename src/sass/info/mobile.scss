@@ -137,7 +137,7 @@
       line-height: 135%;
       color: #1F1F1F;
       position: absolute;
-      top: 22px;
+      top: 12px;
       left: 50%;
       transform: translateX(-34%);
       &.success-phone {
@@ -248,6 +248,8 @@
   .about_us-item {
     margin-bottom: 0;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
     img {
       margin-left: auto;
@@ -350,7 +352,7 @@
   .about_us {
     padding-top: 80px;
   }
-  .about-item > p{
+  .about2 .about-item > p{
     margin-bottom: 0;
     +.about-img {
       + p {
@@ -369,4 +371,11 @@
   .head.success {
     text-align: center;
   }
+    .container {
+      position: relative;
+    }
+  .head-item {
+    text-align: center;
+  }
+  
 }
