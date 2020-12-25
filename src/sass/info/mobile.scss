@@ -235,6 +235,9 @@
   .order-btn {
     margin-left: auto;
     margin-right: auto;
+    &.xs-block {
+      display: flex;
+    }
   }
 
   .about_us-img img {
@@ -257,9 +260,14 @@
   }
 
   .about_us-img {
+    margin-top: 0;
     margin-bottom: 50px;
   }
-
+  .about_us {
+    .order-btn {
+      margin-top: 25px;
+    }
+  }
   .photo_bl {
     display: none;
   }
@@ -341,5 +349,24 @@
   }
   .about_us {
     padding-top: 80px;
+  }
+  .about-item > p{
+    margin-bottom: 0;
+    +.about-img {
+      + p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .cases-slider  .slick-slide {
+    >div {
+      padding: 10px;
+    }
+  }
+  .cases-slider {
+    padding-bottom: 80px;
+  }
+  .head.success {
+    text-align: center;
   }
 }

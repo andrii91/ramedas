@@ -228,9 +228,6 @@
   }
 }
 
-.xs-block {
-  display: none;
-}
 
 
 body.compensate-for-scrollbar {
@@ -1178,3 +1175,6 @@ body {
 @import 'info/main';
 
 
+.xs-block {
+  display: none;
+}

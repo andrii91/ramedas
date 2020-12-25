@@ -520,7 +520,7 @@ body {
   padding-bottom: 92px;
 
   .h2-title {
-    margin-bottom: 36px;
+    margin-bottom: 56px;
   }
 }
 
@@ -528,7 +528,7 @@ body {
   margin-bottom: 87px;
   max-width: 347px;
   margin-left: auto;
-  margin-right: auto;
+//  margin-right: auto;
 
   .img {
     margin-bottom: 35px;
@@ -563,10 +563,12 @@ body {
 
 .about_us-img {
   margin-top: 59px;
+  margin-top: 145px;
 
   img {
-    max-width: 531px;
+    max-width: 450px;
     float: right;
+    clear: both;
   }
 }
 
@@ -1279,4 +1281,8 @@ body {
 
   color: #FFFFFF;
   padding: 21px 67px 19px;
+}
+
+.maxW320 {
+  max-width: 320px;
 }
